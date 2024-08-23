@@ -1,0 +1,103 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box 
+}
+
+body{
+    background:url(./Pinky.jpg.jpg) no-repeat center center/cover;
+    height:100vh;
+    font-family:'courier new', courier, monospace;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(22, 23, 24);
+
+}
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding: 0 10px;
+    overflow:auto;
+    border: 2px white;
+
+}
+
+header {background-color: #c7bebe;
+
+}
+
+header nav h1{
+    float: left;
+    padding: 10px;
+}
+
+header nav ul{
+   float:right;
+}
+header nav ul{
+    display:inline-flex;
+ }
+ header nav ul li a {
+    font-size: 18px;
+    text-align:center;
+    display:inline-block;
+    padding: 15px;
+ }
+header nav ul li a:hover{
+    color: blue;
+       background-color: rgb(245, 11, 186);
+    }
+    
+
+    h1.intro{
+        text-align: center;
+        color: #250303de;
+        font-size: 45px;
+        margin:40px;
+
+    }
+
+    form{
+        max-width: 400px;
+        margin: auto;
+        background-color: rgb(182, 169, 178);
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    form label{
+        display: block;
+        color: #1b1919;
+        margin-bottom: 10px;
+        font-size: 10px;
+
+    }
+    form input[type="text"],
+    form input[type="email"],
+    form input[type= "password"]
+    {width: 100px;
+    padding:12px;
+margin-bottom: 15px;
+border: none;
+font-size:medium;}
+
+form input[type="submit"]
+{display: block;
+margin:15px auto;
+width:50%;
+padding:10px 12px;
+border:none;
+border-radius: 8px;
+color: rgb(2, 2, 2);
+text-align:center;
+font-size: 16px;}
+
+#login-link{
+    color: blue; /* set the color value you desire,such as blue */ 
+}
+
+
