@@ -79,7 +79,7 @@ header nav ul li a:hover{
 form input[type="text"],
 form input[type="email"],
 form input[type= "password"]{
-    width: 100px;
+    width: 200px;
     padding:12px;
     margin-bottom: 15px;
     border: none;
