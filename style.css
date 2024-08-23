@@ -37,18 +37,18 @@ header nav h1{
 header nav ul{
    float:right;
 }
-header nav ul{
-    display:inline-flex;
+header nav ul li{
+    display:inline;
  }
  header nav ul li a {
     font-size: 18px;
     text-align:center;
     display:inline-block;
-    padding: 15px;
+    padding: 10px;
  }
 header nav ul li a:hover{
     color: blue;
-       background-color: rgb(245, 11, 186);
+    background-color: rgb(245, 11, 186);
     }
     
 
@@ -64,8 +64,8 @@ header nav ul li a:hover{
         max-width: 400px;
         margin: auto;
         background-color: rgb(182, 169, 178);
-        padding: 10px;
-        margin-top: 20px;
+        padding: 30px;
+        margin-top: 30px;
         border-radius: 10px;
     }
 
@@ -73,28 +73,29 @@ header nav ul li a:hover{
         display: block;
         color: #1b1919;
         margin-bottom: 10px;
-        font-size: 10px;
+        font-size: 18px;
 
     }
-    form input[type="text"],
-    form input[type="email"],
-    form input[type= "password"]
-    {width: 100px;
+form input[type="text"],
+form input[type="email"],
+form input[type= "password"]{
+    width: 100px;
     padding:12px;
-margin-bottom: 15px;
-border: none;
-font-size:medium;}
-
-form input[type="submit"]
-{display: block;
-margin:15px auto;
-width:50%;
-padding:10px 12px;
-border:none;
-border-radius: 8px;
-color: rgb(2, 2, 2);
-text-align:center;
-font-size: 16px;}
+    margin-bottom: 15px;
+    border: none;
+    border-radius:5px
+    font-size:16px;
+}
+form input[type="submit"]{
+    display: block;
+    margin:15px auto;
+    width:50%;
+    padding:10px 12px;
+    border:none;
+    border-radius: 8px;
+    color: rgb(2, 2, 2);
+    text-align:center;
+    font-size: 16px;}
 
 #login-link{
     color: blue; /* set the color value you desire,such as blue */ 
